@@ -6,6 +6,6 @@ Saar Cohen and Noa Agmon. Convexified Graph Neural Networks for Distributed Cont
 
 ## Dependencies
 Evaluations were conducted using a 12GB NVIDIA Tesla K80 GPU, and:
-- Implemented in PyTorch v1.7.0.
+- Implemented in Python3 with PyTorch v1.7.0.
 - Accelerated with Cuda v10.1.
 - Situated in the [GymFlock](https://github.com/katetolstaya/gym-flock) flocking environment.
