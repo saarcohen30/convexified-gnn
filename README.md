@@ -9,3 +9,6 @@ Evaluations were conducted using a 12GB NVIDIA Tesla K80 GPU, and:
 - Implemented in Python3 with PyTorch v1.7.0.
 - Accelerated with Cuda v10.1.
 - Situated in the [GymFlock](https://github.com/katetolstaya/gym-flock) flocking environment.
+Additional dependencies are:
+- [OpenAI Gym](https://github.com/openai/gym)
+- [AirSim](https://github.com/openai/gym) (Optional)
