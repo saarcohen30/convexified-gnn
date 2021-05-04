@@ -19,8 +19,8 @@ This repository implements all the convexified GNN architerctures, introduced in
 - `cx_graph_filter.py` (`CGraphFilter`) - This code implements a single convexified graph (convolutional) filter,
 which corresponds to a single layer of a Convexified GNN (Cx-GNN).
 - `cx_actor.py` (`CxActor`) - An actor implementation, which incorporates `CGraphFilter` so as to perform the convexification.
-- `cta_gnn_dagger.py` - The implementation of a Convexified Time-Delayed Aggregation GNNs (<em>CTA-GNNs</em>).
-- `ca_gnn_dagger.py` - The implementation of a Convexified Aggregation GNNs (<em>CA-GNNs</em>).
-- `half_cx_actor.py` - An actor implementation, which incorporates both a convex GNN and non-convex one.
-- `half_cta_gnn_dagger.py` - The implementation of a Time-Delayed Aggregation Half-Convex GNNs (<em>TAHC-GNNs</em>).
-- `half_ca_gnn_dagger.py` - The implementation of a Aggregation Half-Convex GNNs (<em>AHC-GNNs</em>).
+- `cta_gnn_dagger.py` (`CTADAGGER`) - The implementation of a Convexified Time-Delayed Aggregation GNNs (<em>CTA-GNNs</em>).
+- `ca_gnn_dagger.py` (`CADAGGER`) - The implementation of a Convexified Aggregation GNNs (<em>CA-GNNs</em>).
+- `half_cx_actor.py` (`HalfCxActor`) - An actor implementation, which incorporates both a convex GNN and non-convex one.
+- `half_cta_gnn_dagger.py` (`HalfCTADAGGER`) - The implementation of a Time-Delayed Aggregation Half-Convex GNNs (<em>TAHC-GNNs</em>).
+- `half_ca_gnn_dagger.py` (`HalfCADAGGER`) - The implementation of a Aggregation Half-Convex GNNs (<em>AHC-GNNs</em>).
