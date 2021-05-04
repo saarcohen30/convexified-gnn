@@ -23,3 +23,8 @@ This repository implements all the convexified GNN architerctures, introduced in
 - `half_cx_actor.py` (`HalfCxActor`) - An actor implementation, which incorporates both a convex GNN and non-convex one.
 - `half_cta_gnn_dagger.py` (`HalfCTADAGGER`) - The implementation of a Time-Delayed Aggregation Half-Convex GNNs (**<em>TAHC-GNNs</em>**).
 - `half_ca_gnn_dagger.py` (`HalfCADAGGER`) - The implementation of a Aggregation Half-Convex GNNs (**<em>AHC-GNNs</em>**).
+
+## Execution
+The `convexified-gnn/cfg` sub-directory comprises of configuration files, which are given to `convexified-gnn/train.py` as an input upon its execution. A possible execution might be:  
+`python3 -W ignore convexified_gnn/train.py convexified-gnn/cfg/n-half-cta-k-3.cfg`
+where the `-W ignore` flag ignores possible warnings. `convexified-gnn/train.py` then parses the provided configuration using `configparser`, so as to set up the simulative environment of the desired experiment.
